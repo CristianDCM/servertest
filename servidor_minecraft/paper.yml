@@ -12,6 +12,9 @@
 verbose: false
 config-version: 13
 settings:
+  remove-invalid-statistics: false
+  use-alternative-luck-formula: false
+  min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
   spam-limiter:
     tab-spam-increment: 10
@@ -19,6 +22,7 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
+  save-player-data: true
   sleep-between-chunk-saves: false
   load-permissions-yml-before-plugins: true
   region-file-cache-size: 256
@@ -27,10 +31,6 @@ settings:
   incoming-packet-spam-threshold: 300
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
-  remove-invalid-statistics: false
-  save-player-data: true
-  use-alternative-luck-formula: false
-  min-chunk-load-threads: 2
   bungee-online-mode: true
 messages:
   kick:
