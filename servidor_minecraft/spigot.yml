@@ -13,19 +13,20 @@
 config-version: 11
 settings:
   bungeecord: false
+  save-user-cache-on-stop-only: false
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  timeout-time: 90
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
   late-bind: false
   filter-creative-items: true
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
-  timeout-time: 90
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 4
-  save-user-cache-on-stop-only: false
-  sample-count: 12
-  player-shuffle: 0
   attribute:
     maxHealth:
       max: 2048.0
@@ -33,11 +34,13 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  user-cache-size: 1000
 stats:
   disable-saving: false
   forced-stats: {}
 commands:
+  tab-complete: 0
+  silent-commandblock-console: false
+  log: true
   spam-exclusions:
   - /skill
   replace-commands:
@@ -45,18 +48,16 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
-  tab-complete: 0
-  silent-commandblock-console: false
-messages:
-  restart: Server is restarting
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
+messages:
+  restart: Server is restarting
 world-settings:
   default:
     verbose: false
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -68,7 +69,6 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -103,7 +103,6 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
-    zombie-aggressive-towards-villager: true
     merge-radius:
       exp: 3.0
       item: 2.5
@@ -113,6 +112,7 @@ world-settings:
     wither-spawn-sound-radius: 0
     view-distance: 10
     hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
     entity-tracking-range:
       players: 48
