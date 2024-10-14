@@ -1,136 +1,145 @@
-[00:42:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:42:43] [ServerMain/INFO]: Loaded 7 recipes
-[00:42:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:42:44] [Server thread/INFO]: Loading properties
-[00:42:45] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[00:42:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:42:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:42:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[00:50:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:50:25] [ServerMain/INFO]: Loaded 7 recipes
+[00:50:26] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:50:26] [Server thread/INFO]: Loading properties
+[00:50:26] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[00:50:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:50:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:50:28] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[00:42:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[00:42:47] [Server thread/INFO]: Default game type: SURVIVAL
-[00:42:47] [Server thread/INFO]: Generating keypair
-[00:42:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:42:47] [Server thread/INFO]: Using epoll channel type
-[00:42:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:42:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:42:48] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b112-0360721)
-[00:42:49] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[00:42:49] [Server thread/INFO]: [floodgate] Took 1,053ms to boot Floodgate
-[00:42:49] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
-[00:42:49] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[00:42:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:42:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:42:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:42:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:42:52] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.3-SNAPSHOT
-[00:42:52] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[00:42:52] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[00:42:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
-[00:42:52] [Server thread/INFO]: [GeyserSkinManager] Loading server plugin GeyserSkinManager v1.7
-[00:42:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:42:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:42:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:42:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:42:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:42:52] [Server thread/INFO]: Preparing level "world"
-[00:42:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:42:53] [Server thread/INFO]: Time elapsed: 425 ms
-[00:42:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:42:53] [Server thread/INFO]: Time elapsed: 105 ms
-[00:42:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:42:54] [Server thread/INFO]: Time elapsed: 126 ms
-[00:42:54] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b112-0360721)
-[00:42:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
-[00:42:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[00:42:55] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.3-SNAPSHOT
-[00:42:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
-[00:42:56] [Server thread/INFO]: [GeyserSkinManager] Enabling GeyserSkinManager v1.7
-[00:42:56] [Server thread/WARN]: [GeyserSkinManager] Floodgate found on the server! Disabling skin services and only running mod interactions.
-[00:42:57] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:42:57] [Server thread/INFO]: [Geyser-Spigot] 
-[00:42:57] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.3-b689 (git-master-d64c0b3)
-[00:42:57] [Server thread/INFO]: [Geyser-Spigot] 
-[00:42:57] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:43:07] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[00:43:07] [Server thread/INFO]: [Geyser-Spigot] Done (10.643s)! Run /geyser help for help!
-[00:43:08] [Server thread/INFO]: Running delayed init tasks
-[00:43:08] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:43:08] [Server thread/INFO]: Done (23.162s)! For help, type "help"
-[00:43:08] [Server thread/INFO]: Timings Reset
-[00:43:08] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[00:43:49] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username KRCDavid
-[00:43:49] [localSession-7-2/INFO]: [Geyser-Spigot] KRCDavid (logged in as: KRCDavid) has connected to the Java server
-[00:43:49] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .KRCDavid is 00000000-0000-0000-0009-01fbd7a7fea7
-[00:43:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .KRCDavid joined (UUID: 00000000-0000-0000-0009-01fbd7a7fea7)
-[00:43:49] [Server thread/INFO]: .KRCDavid joined the game
-[00:43:50] [Server thread/INFO]: .KRCDavid[/127.0.0.1:0] logged in with entity id 281 at ([world]7.66087, 62.0, 6.3763466)
-[00:43:52] [User Authenticator #0/INFO]: UUID of player KRCDavid is 6d896101-2229-30e9-b799-140a5e64c03c
-[00:43:52] [Server thread/INFO]: KRCDavid joined the game
-[00:43:52] [Server thread/INFO]: KRCDavid[/127.160.234.32:33987] logged in with entity id 296 at ([world]5.5, 58.0, 4.5)
-[00:44:28] [Server thread/INFO]: Made KRCDavid a server operator
-[00:44:35] [Server thread/INFO]: Made .KRCDavid a server operator
-[00:44:53] [Server thread/INFO]: KRCDavid issued server command: /gamemode creative
-[00:44:53] [Server thread/INFO]: [KRCDavid: Set own game mode to Creative Mode]
-[00:45:57] [Server thread/INFO]: .KRCDavid was blown up by KRCDavid
-[00:47:18] [Server thread/INFO]: KRCDavid issued server command: /gamemode creative .KRCDavid
-[00:47:18] [Server thread/INFO]: [KRCDavid: Set .KRCDavid's game mode to Creative Mode]
-[00:47:45] [Server thread/INFO]: KRCDavid lost connection: Disconnected
-[00:47:45] [Server thread/INFO]: KRCDavid left the game
-[00:47:58] [localSession-7-2/INFO]: [Geyser-Spigot] KRCDavid has disconnected from the Java server because of Bedrock client disconnected
-[00:47:58] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .KRCDavid disconnected
-[00:47:58] [Server thread/INFO]: .KRCDavid lost connection: Disconnected
-[00:47:58] [Server thread/INFO]: .KRCDavid left the game
-[00:48:04] [User Authenticator #1/INFO]: UUID of player KRCDavid is 6d896101-2229-30e9-b799-140a5e64c03c
-[00:48:04] [Server thread/INFO]: KRCDavid joined the game
-[00:48:04] [Server thread/INFO]: KRCDavid[/127.160.234.32:55599] logged in with entity id 779 at ([world]-4.775637083658835, 67.0, 4.070671948173426)
-[00:48:15] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username KRCDavid
-[00:48:15] [localSession-7-3/INFO]: [Geyser-Spigot] KRCDavid (logged in as: KRCDavid) has connected to the Java server
-[00:48:15] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .KRCDavid is 00000000-0000-0000-0009-01fbd7a7fea7
-[00:48:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .KRCDavid joined (UUID: 00000000-0000-0000-0009-01fbd7a7fea7)
-[00:48:15] [Server thread/INFO]: .KRCDavid joined the game
-[00:48:15] [Server thread/INFO]: .KRCDavid[/127.0.0.1:0] logged in with entity id 794 at ([world]-4.5, 67.0, 1.5)
-[00:49:14] [Server thread/INFO]: Stopping the server
-[00:49:14] [Server thread/INFO]: Stopping server
-[00:49:14] [Server thread/INFO]: [GeyserSkinManager] Disabling GeyserSkinManager v1.7
-[00:49:14] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.4-SNAPSHOT
-[00:49:14] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.3-SNAPSHOT
-[00:49:14] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[00:49:14] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
-[00:49:14] [localSession-7-3/INFO]: [Geyser-Spigot] KRCDavid has disconnected from the Java server because of Apagando el proxy de Geyser.
-[00:49:14] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .KRCDavid disconnected
-[00:49:14] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
-[00:49:14] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[00:49:14] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.4-SNAPSHOT
-[00:49:14] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[00:49:14] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b112-0360721)
-[00:49:14] [Server thread/INFO]: Saving players
-[00:49:14] [Server thread/INFO]: KRCDavid lost connection: Server closed
-[00:49:14] [Server thread/INFO]: KRCDavid left the game
-[00:49:14] [Server thread/INFO]: .KRCDavid lost connection: Server closed
-[00:49:14] [Server thread/INFO]: .KRCDavid left the game
-[00:49:14] [WebSocketConnectReadThread-76/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[00:49:14] [Server thread/INFO]: Saving worlds
-[00:49:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:49:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:49:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:49:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Saved 315 block chunks, 179 entity chunks, 0 poi chunks in world 'world' in 0.36s
-[00:49:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:49:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 28 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[00:49:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:49:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:49:15] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[00:49:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:49:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:49:15] [Server thread/INFO]: Flushing Chunk IO
-[00:49:15] [Server thread/INFO]: Closing Thread Pool
-[00:49:15] [Server thread/INFO]: Closing Server
+[00:50:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[00:50:28] [Server thread/INFO]: Default game type: SURVIVAL
+[00:50:28] [Server thread/INFO]: Generating keypair
+[00:50:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:50:29] [Server thread/INFO]: Using epoll channel type
+[00:50:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:50:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:50:29] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
+[00:50:29] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:50:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:50:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:50:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:50:31] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:50:31] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b112-0360721)
+[00:50:32] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:50:32] [Server thread/INFO]: [floodgate] Took 757ms to boot Floodgate
+[00:50:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
+[00:50:32] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.3
+[00:50:32] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.3-SNAPSHOT
+[00:50:33] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:50:33] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:50:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:50:33] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.3
+[00:50:33] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[00:50:33] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[00:50:34] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[00:50:34] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:50:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:50:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:50:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:50:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:50:34] [Server thread/INFO]: Preparing level "world"
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.3
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 4aa9140
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:50:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:50:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:50:35] [Server thread/INFO]: Time elapsed: 372 ms
+[00:50:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:50:35] [Server thread/INFO]: Time elapsed: 119 ms
+[00:50:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:50:35] [Server thread/INFO]: Time elapsed: 101 ms
+[00:50:35] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
+[00:50:35] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[00:50:35] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b112-0360721)
+[00:50:36] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
+[00:50:36] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.3-SNAPSHOT
+[00:50:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:50:37] [Server thread/INFO]: [Geyser-Spigot] 
+[00:50:37] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.3-b689 (git-master-d64c0b3)
+[00:50:37] [Server thread/INFO]: [Geyser-Spigot] 
+[00:50:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:50:47] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:50:47] [Server thread/INFO]: [Geyser-Spigot] Done (9.994s)! Run /geyser help for help!
+[00:50:47] [Server thread/INFO]: Running delayed init tasks
+[00:50:47] [Server thread/INFO]: Done (21.740s)! For help, type "help"
+[00:50:47] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:50:47] [Server thread/INFO]: Timings Reset
+[00:50:47] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:50:55] [User Authenticator #0/INFO]: UUID of player KRCDavid is 6d896101-2229-30e9-b799-140a5e64c03c
+[00:50:55] [Server thread/INFO]: KRCDavid joined the game
+[00:50:55] [Server thread/INFO]: KRCDavid[/127.160.234.32:55667] logged in with entity id 277 at ([world]-5.133073155451361, 67.0, 4.653166789291456)
+[00:50:56] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username KRCDavid
+[00:50:56] [localSession-7-2/INFO]: [Geyser-Spigot] KRCDavid (logged in as: KRCDavid) has connected to the Java server
+[00:50:57] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .KRCDavid is 00000000-0000-0000-0009-01fbd7a7fea7
+[00:50:57] [Server thread/INFO]: [floodgate] Floodgate player logged in as .KRCDavid joined (UUID: 00000000-0000-0000-0009-01fbd7a7fea7)
+[00:50:57] [Server thread/INFO]: .KRCDavid joined the game
+[00:50:57] [Server thread/INFO]: .KRCDavid[/127.0.0.1:0] logged in with entity id 284 at ([world]-4.5, 67.0, 1.5)
+[00:51:39] [Server thread/INFO]: KRCDavid lost connection: Disconnected
+[00:51:39] [Server thread/INFO]: KRCDavid left the game
+[00:51:41] [User Authenticator #0/INFO]: UUID of player KRCDavid is 6d896101-2229-30e9-b799-140a5e64c03c
+[00:51:41] [Server thread/INFO]: KRCDavid joined the game
+[00:51:41] [Server thread/INFO]: KRCDavid[/127.160.234.32:59491] logged in with entity id 379 at ([world]-5.3121845923322635, 67.0, 3.9531974128904004)
+[00:51:51] [localSession-7-2/INFO]: [Geyser-Spigot] KRCDavid has disconnected from the Java server because of Bedrock client disconnected
+[00:51:51] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .KRCDavid disconnected
+[00:51:51] [Server thread/INFO]: .KRCDavid lost connection: Disconnected
+[00:51:51] [Server thread/INFO]: .KRCDavid left the game
+[00:52:03] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username KRCDavid
+[00:52:03] [localSession-7-3/INFO]: [Geyser-Spigot] KRCDavid (logged in as: KRCDavid) has connected to the Java server
+[00:52:03] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .KRCDavid is 00000000-0000-0000-0009-01fbd7a7fea7
+[00:52:03] [Server thread/INFO]: [floodgate] Floodgate player logged in as .KRCDavid joined (UUID: 00000000-0000-0000-0009-01fbd7a7fea7)
+[00:52:03] [Server thread/INFO]: .KRCDavid joined the game
+[00:52:03] [Server thread/INFO]: .KRCDavid[/127.0.0.1:0] logged in with entity id 417 at ([world]-4.5, 66.21886680679012, 1.5)
+[00:57:19] [Server thread/INFO]: Stopping the server
+[00:57:19] [Server thread/INFO]: Stopping server
+[00:57:19] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.3-SNAPSHOT
+[00:57:19] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:57:19] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[00:57:19] [localSession-7-3/INFO]: [Geyser-Spigot] KRCDavid has disconnected from the Java server because of Apagando el proxy de Geyser.
+[00:57:19] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[00:57:19] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .KRCDavid disconnected
+[00:57:20] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:57:20] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
+[00:57:20] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.4-SNAPSHOT
+[00:57:20] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b112-0360721)
+[00:57:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.4-SNAPSHOT
+[00:57:20] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:57:20] [Server thread/INFO]: Saving players
+[00:57:20] [Server thread/INFO]: KRCDavid lost connection: Server closed
+[00:57:20] [Server thread/INFO]: KRCDavid left the game
+[00:57:20] [WebSocketConnectReadThread-85/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:57:20] [Server thread/INFO]: .KRCDavid lost connection: Server closed
+[00:57:20] [Server thread/INFO]: .KRCDavid left the game
+[00:57:20] [Server thread/INFO]: Saving worlds
+[00:57:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 162 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[00:57:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:57:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 29 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[00:57:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:57:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:57:20] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[00:57:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:57:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:57:20] [Server thread/INFO]: Flushing Chunk IO
+[00:57:20] [Server thread/INFO]: Closing Thread Pool
+[00:57:20] [Server thread/INFO]: Closing Server
