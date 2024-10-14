@@ -1,201 +1,114 @@
-[01:01:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:01:25] [ServerMain/INFO]: Loaded 7 recipes
-[01:01:26] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[01:01:26] [Server thread/INFO]: Loading properties
-[01:01:26] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[01:01:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:01:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:01:28] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[01:32:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:32:18] [ServerMain/INFO]: Loaded 7 recipes
+[01:32:19] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:32:19] [Server thread/INFO]: Loading properties
+[01:32:19] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[01:32:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:32:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:32:21] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:01:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[01:01:28] [Server thread/INFO]: Default game type: SURVIVAL
-[01:01:28] [Server thread/INFO]: Generating keypair
-[01:01:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:01:29] [Server thread/INFO]: Using epoll channel type
-[01:01:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:01:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:01:30] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
-[01:01:30] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[01:01:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[01:01:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[01:01:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[01:01:31] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[01:01:32] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b112-0360721)
-[01:01:33] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[01:01:33] [Server thread/INFO]: [floodgate] Took 859ms to boot Floodgate
-[01:01:33] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
-[01:01:33] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[01:01:33] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.3
-[01:01:33] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.3-SNAPSHOT
-[01:01:33] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[01:01:33] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[01:01:33] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.8.0
-[01:01:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:01:33] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.3
-[01:01:34] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[01:01:34] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[01:01:34] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[01:01:35] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[01:01:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:01:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:01:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:01:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:01:35] [Server thread/INFO]: Preparing level "world"
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.3
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 4aa9140
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[01:01:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[01:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:01:36] [Server thread/INFO]: Time elapsed: 320 ms
-[01:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:01:36] [Server thread/INFO]: Time elapsed: 99 ms
-[01:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:01:36] [Server thread/INFO]: Time elapsed: 133 ms
-[01:01:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
-[01:01:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[01:01:36] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b112-0360721)
-[01:01:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
-[01:01:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[01:01:37] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
-[01:01:38] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[01:01:38] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
-[01:01:38] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[01:01:38] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[01:01:38] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[01:01:38] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[01:01:38] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[01:01:38] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
-[01:01:38] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
-[01:01:39] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[01:01:39] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
-[01:01:39] [Server thread/INFO]: [Essentials] Using locale en
-[01:01:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:01:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:01:39] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[01:01:39] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.3-SNAPSHOT
-[01:01:39] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.8.0
-[01:01:39] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[01:01:40] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[01:01:40] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[01:01:40] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[01:01:40] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[01:01:40] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[01:01:40] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.8.0 (Premium: false)
-[01:01:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[01:01:40] [Server thread/INFO]: [Geyser-Spigot] 
-[01:01:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.3-b689 (git-master-d64c0b3)
-[01:01:40] [Server thread/INFO]: [Geyser-Spigot] 
-[01:01:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[01:01:50] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[01:01:50] [Server thread/INFO]: [Geyser-Spigot] Done (9.173s)! Run /geyser help for help!
-[01:01:50] [Server thread/INFO]: Running delayed init tasks
-[01:01:50] [Server thread/INFO]: Done (24.139s)! For help, type "help"
-[01:01:50] [Server thread/INFO]: Timings Reset
-[01:01:50] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[01:01:50] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[01:01:50] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[01:01:53] [Server thread/INFO]: [AngelChest] ========================================================
-[01:01:53] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[01:01:53] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[01:01:53] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[01:01:53] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[01:01:53] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[01:01:53] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[01:01:53] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[01:01:53] [Server thread/INFO]: [AngelChest] 
-[01:01:53] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[01:01:53] [Server thread/INFO]: [AngelChest] ========================================================
-[01:02:35] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username KRCDavid
-[01:02:35] [localSession-7-2/INFO]: [Geyser-Spigot] KRCDavid (logged in as: KRCDavid) has connected to the Java server
-[01:02:35] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .KRCDavid is 00000000-0000-0000-0009-01fbd7a7fea7
-[01:02:36] [Server thread/INFO]: [floodgate] Floodgate player logged in as .KRCDavid joined (UUID: 00000000-0000-0000-0009-01fbd7a7fea7)
-[01:02:36] [Server thread/INFO]: .KRCDavid joined the game
-[01:02:36] [Server thread/INFO]: .KRCDavid[/127.0.0.1:0] logged in with entity id 256 at ([world]-4.5, 66.0, 1.5)
-[01:02:36] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
-[01:02:49] [User Authenticator #0/INFO]: UUID of player KRCDavid is 6d896101-2229-30e9-b799-140a5e64c03c
-[01:02:50] [Server thread/INFO]: KRCDavid joined the game
-[01:02:50] [Server thread/INFO]: KRCDavid[/127.160.234.32:59501] logged in with entity id 340 at ([world]-4.80870589411634, 66.0, 3.06146633324163)
-[01:03:57] [Server thread/INFO]: KRCDavid issued server command: /time set day
-[01:04:20] [Server thread/INFO]: .KRCDavid issued server command: /toa krcdavid
-[01:04:57] [Server thread/INFO]: .KRCDavid has made the advancement [Stone Age]
-[01:05:00] [Server thread/INFO]: KRCDavid has made the advancement [Monster Hunter]
-[01:05:18] [Server thread/INFO]: KRCDavid has made the advancement [Stone Age]
-[01:10:15] [Server thread/INFO]: .KRCDavid issued server command: /weather clear
-[01:10:34] [Server thread/INFO]: .KRCDavid issued server command: /kill
-[01:10:56] [Server thread/INFO]: KRCDavid issued server command: /gamemode survival
-[01:11:24] [Server thread/INFO]: KRCDavid was blown up by .KRCDavid
-[01:11:50] [localSession-7-2/INFO]: [Geyser-Spigot] KRCDavid has disconnected from the Java server because of Bedrock client disconnected
-[01:11:50] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .KRCDavid disconnected
-[01:11:50] [Server thread/INFO]: .KRCDavid lost connection: Disconnected
-[01:11:50] [Server thread/INFO]: .KRCDavid left the game
-[01:11:51] [Server thread/INFO]: [AngelChest] KRCDavid emptied the AngelChest of KRCDavid at Location{world=CraftWorld{name=world},x=-4.0,y=57.0,z=2.0,pitch=0.0,yaw=0.0}
-[01:16:00] [Server thread/INFO]: Stopping the server
-[01:16:00] [Server thread/INFO]: Stopping server
-[01:16:00] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.8.0
-[01:16:00] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling AngelChest v13.8.0 (Is it up to date?)
-java.lang.ExceptionInInitializerError: null
-	at de.jeff_media.angelchest.AngelChestMain.onDisable(AngelChestMain.java:441) ~[AngelChest-13.8.0.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:148) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:92) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:528) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.disablePlugins(CraftServer.java:573) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:942) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:813) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1209) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.validate(CraftScheduler.java:548) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:224) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:209) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.scheduler.BukkitRunnable.runTaskTimer(BukkitRunnable.java:117) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at de.jeff_media.angelchest.AngelChestMain$$FE.<clinit>(GraveyardListener.java:57) ~[AngelChest-13.8.0.jar:?]
-	... 12 more
-[01:16:00] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.3-SNAPSHOT
-[01:16:00] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[01:16:00] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[01:16:00] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
-[01:16:00] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[01:16:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.4-SNAPSHOT
-[01:16:00] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b112-0360721)
-[01:16:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.4-SNAPSHOT
-[01:16:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[01:16:00] [Server thread/INFO]: Saving players
-[01:16:00] [Server thread/INFO]: KRCDavid lost connection: Server closed
-[01:16:00] [Server thread/INFO]: KRCDavid left the game
-[01:16:00] [WebSocketConnectReadThread-91/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[01:16:00] [Server thread/INFO]: Saving worlds
-[01:16:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:16:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:16:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:16:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Saved 54 block chunks, 205 entity chunks, 0 poi chunks in world 'world' in 0.27s
-[01:16:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:16:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 30 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
-[01:16:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:16:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:16:01] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[01:16:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:16:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:16:01] [Server thread/INFO]: Flushing Chunk IO
-[01:16:01] [Server thread/INFO]: Closing Thread Pool
-[01:16:01] [Server thread/INFO]: Closing Server
+[01:32:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:32:22] [Server thread/INFO]: Default game type: SURVIVAL
+[01:32:22] [Server thread/INFO]: Generating keypair
+[01:32:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:32:22] [Server thread/INFO]: Using epoll channel type
+[01:32:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:32:22] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:32:23] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
+[01:32:23] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[01:32:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:32:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:32:24] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:32:24] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:32:25] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b112-0360721)
+[01:32:26] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[01:32:26] [Server thread/INFO]: [floodgate] Took 948ms to boot Floodgate
+[01:32:26] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
+[01:32:26] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[01:32:26] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.3
+[01:32:26] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
+[01:32:26] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.3-SNAPSHOT
+[01:32:27] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[01:32:27] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[01:32:27] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.8.0
+[01:32:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:32:27] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.3
+[01:32:27] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[01:32:28] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[01:32:28] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[01:32:28] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:32:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:32:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:32:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:32:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:32:28] [Server thread/INFO]: Preparing level "world"
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.3
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 4aa9140
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:32:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:32:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:32:29] [Server thread/INFO]: Time elapsed: 330 ms
+[01:32:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:32:29] [Server thread/INFO]: Time elapsed: 146 ms
+[01:32:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:32:29] [Server thread/INFO]: Time elapsed: 118 ms
+[01:32:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
+[01:32:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[01:32:30] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b112-0360721)
+[01:32:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
+[01:32:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[01:32:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:32:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:32:33] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[01:32:33] [Server thread/INFO]: [Essentials] Using locale en
+[01:32:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:32:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:32:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[01:32:33] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
+[01:32:33] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.3-SNAPSHOT
+[01:32:33] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.8.0
+[01:32:34] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[01:32:34] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[01:32:34] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[01:32:34] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[01:32:34] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[01:32:34] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:32:34] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.8.0 (Premium: false)
+[01:32:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:32:34] [Server thread/INFO]: [Geyser-Spigot] 
+[01:32:34] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.3-b689 (git-master-d64c0b3)
+[01:32:34] [Server thread/INFO]: [Geyser-Spigot] 
+[01:32:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:32:43] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[01:32:43] [Server thread/INFO]: [Geyser-Spigot] Done (8.931s)! Run /geyser help for help!
+[01:32:44] [Server thread/INFO]: Running delayed init tasks
+[01:32:44] [Server thread/INFO]: Done (24.607s)! For help, type "help"
+[01:32:44] [Server thread/INFO]: Timings Reset
+[01:32:44] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:32:44] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[01:32:44] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[01:32:48] [Server thread/INFO]: [AngelChest] ========================================================
+[01:32:48] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[01:32:48] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[01:32:48] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[01:32:48] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[01:32:48] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[01:32:48] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[01:32:48] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[01:32:48] [Server thread/INFO]: [AngelChest] 
+[01:32:48] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[01:32:48] [Server thread/INFO]: [AngelChest] ========================================================
+[01:32:59] [User Authenticator #0/INFO]: UUID of player KRCDavid is 6d896101-2229-30e9-b799-140a5e64c03c
+[01:32:59] [Server thread/INFO]: KRCDavid joined the game
+[01:32:59] [Server thread/INFO]: KRCDavid[/127.160.234.32:58345] logged in with entity id 288 at ([world]-42.154701713887725, 65.0, -63.38730761400084)
+[01:41:00] [Server thread/INFO]: KRCDavid has made the advancement [A Throwaway Joke]
